@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('joya.jpg') center/cover no-repeat;
+    color: #fff;
+    position: relative;
+    z-index: 0;
+}
+
+h1, p {
+    margin: 0;
+}
+
+button {
+    margin-top: 20px;
+}
+
+/* Ajustes para el menú */
+.navbar {
+    margin-bottom: 0;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #fff !important; /* Importante para anular cualquier otro estilo que pueda estar afectando */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
